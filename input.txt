@@ -1,0 +1,42 @@
+This is a talk that I would not, I'm afraid, have the nerve to give under any other circumstances. It's a story I've been saving up to
+tell Viki. Like so many of you here, I've enjoyed from time to time the wonderful experience of exploring with Viki some part of
+physics, or anything to which we can apply physics. We wander around strictly as amateurs equipped only with some elementary
+physics even if we don't throw much light on the other subjects. Now this is that kind of a subject, but I have still another reason for
+wanting to, as it were, needle Viki with it, because I'm going to talk for a while about viscosity. Viscosity in a liquid will be the
+dominant theme here and you know Viki's program of explaining everything including the height of mountains, with the elementary
+constants. The viscosity of a liquid is a very tough nut to crack, as he well knows, because when the stuff is cooled by merely 40
+degrees, its viscosity can change by a factor of a million. I was really amazed by fluid viscosity in the early days of NMR, when it
+turned out that glycerin was just what we needed to explore the behavior of spin relaxation. And yet if you were a little bug inside
+the glycerin looking around, you wouldn't see much change in your glycerin as it cooled. Viki will say that he can at least predict
+the logarithm of the viscosity. And that, of course, is correct because the reason viscosity changes is that it's got one of these
+activation energy things and what he can predict is the order of magnitude of the exponent. But it's more mysterious than that, Viki,
+because if you look at the Chemical Rubber Handbook table you will find that there is almost no liquid with viscosity much lower
+than that of water. The viscosities have a big range but they stop at the same place. I don't understand that. That's what I'm leaving
+for him.
+
+Now, I'm going to talk about a world which, as physicists, we
+almost never think about. The physicist hears about viscosity in high
+school when he's repeating Millikan's oil drop experiment and he
+never hears about it again, at least not in what I teach. And
+Reynolds's number, of course, is something for the engineers. And
+the low Reynolds's number regime most engineers aren't even
+interested in--except possibly chemical engineers, in connection
+with fluidized beds, a fascinating topic I heard about from a
+chemical engineering friend at MIT. But I want to take you into the
+world of very low Reynolds number--a world which is inhabited by
+the overwhelming majority of the organisms in this room. This
+world is quite different form the one that we have developed our
+intuitions in.
+I might say what got me into this. To introduce something that will
+come later, I'm going to talk partly about how microorganisms
+swim. That will not, however, turn out to be the only important
+question about them. I got into this through the work of a former
+colleague of mine at Harvard, Howard Berg. Berg got his Ph.D.
+with Norman Ramsey, working on a hydrogen maser, and then he
+went back into biology, which had been his early love, and into
+cellular physiology. He is now at the University of Colorado at
+Boulder, and has recently participated in what seems to me one of
+the most astonishing discoveries about the questions we're going to
+talk about. So it was partly Howard's work, tracking E. coli and
+finding out this strange thing about them, that got me thinking about
+this elementary physics stuff.

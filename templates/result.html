@@ -1,0 +1,10 @@
+{% extends 'base.html' %} 
+
+{% block header %}
+<h1>{% block title %}Summary{% endblock %}</h1>
+{% endblock %} 
+
+{% block content %}
+<h1>{{ value }}</h1>
+<a type="button" href="{{url_for('back')}}">back</a>
+{% endblock %}
