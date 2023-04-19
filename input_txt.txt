@@ -1,0 +1,374 @@
+Input: Life at Low Reynolds Number
+E.M. Purcell
+Lyman Laboratory, Harvard University, Cambridge, Mass 02138
+June 1976
+American Journal of Physics vol 45, pages 3-11, 1977. 
+Editor's note: This is a reprint of a (slightly edited) paper of the same title that appeared in the book Physics and Our World: A 
+Symposium in Honor of Victor F. Weiskopf, published by the American Journal of Physics (1976). The personal tone of the original 
+talk has been preserved in the paper, which was itself a slightly edited transcript of a tape. The figures reproduce transparencies 
+used in the talk. The demonstration involved a tall rectangular transparent vessel of corn syrup, projected by an overhead projector 
+turned on its side. Some essential hand waving could not be reproduced. 
+This is a talk that I would not, I'm afraid, have the nerve to give under any other circumstances. It's a story I've been saving up to 
+tell Viki. Like so many of you here, I've enjoyed from time to time the wonderful experience of exploring with Viki some part of 
+physics, or anything to which we can apply physics. We wander around strictly as amateurs equipped only with some elementary 
+physics even if we don't throw much light on the other subjects. Now this is that kind of a subject, but I have still another reason for 
+wanting to, as it were, needle Viki with it, because I'm going to talk for a while about viscosity. Viscosity in a liquid will be the 
+dominant theme here and you know Viki's program of explaining everything including the height of mountains, with the elementary 
+constants. The viscosity of a liquid is a very tough nut to crack, as he well knows, because when the stuff is cooled by merely 40 
+degrees, its viscosity can change by a factor of a million. I was really amazed by fluid viscosity in the early days of NMR, when it 
+turned out that glycerin was just what we needed to explore the behavior of spin relaxation. And yet if you were a little bug inside 
+the glycerin looking around, you wouldn't see much change in your glycerin as it cooled. Viki will say that he can at least predict 
+the logarithm of the viscosity. And that, of course, is correct because the reason viscosity changes is that it's got one of these 
+activation energy things and what he can predict is the order of magnitude of the exponent. But it's more mysterious than that, Viki, 
+because if you look at the Chemical Rubber Handbook table you will find that there is almost no liquid with viscosity much lower 
+than that of water. The viscosities have a big range but they stop at the same place. I don't understand that. That's what I'm leaving 
+for him. 
+Now, I'm going to talk about a world which, as physicists, we 
+almost never think about. The physicist hears about viscosity in high 
+school when he's repeating Millikan's oil drop experiment and he 
+never hears about it again, at least not in what I teach. And 
+Reynolds's number, of course, is something for the engineers. And 
+the low Reynolds's number regime most engineers aren't even 
+interested in--except possibly chemical engineers, in connection 
+with fluidized beds, a fascinating topic I heard about from a 
+chemical engineering friend at MIT. But I want to take you into the 
+world of very low Reynolds number--a world which is inhabited by 
+the overwhelming majority of the organisms in this room. This 
+world is quite different form the one that we have developed our 
+intuitions in. 
+I might say what got me into this. To introduce something that will 
+come later, I'm going to talk partly about how microorganisms 
+swim. That will not, however, turn out to be the only important 
+question about them. I got into this through the work of a former 
+colleague of mine at Harvard, Howard Berg. Berg got his Ph.D. 
+with Norman Ramsey, working on a hydrogen maser, and then he 
+went back into biology, which had been his early love, and into 
+cellular physiology. He is now at the University of Colorado at 
+Boulder, and has recently participated in what seems to me one of 
+the most astonishing discoveries about the questions we're going to 
+talk about. So it was partly Howard's work, tracking E. coli and 
+finding out this strange thing about them, that got me thinking about 
+this elementary physics stuff. 
+Well here we go. In Fig. 1., you see an object which is moving through a fluid with velocity v . It has dimension a. In Stoke's law, 
+
+the object is a sphere, but here it's anything; \eta and \rho are the viscosity and density of the fluid. The ratio of the inertial forces to 
+the viscous forces, as Osborne Reynolds pointed out slightly less than a hundred years ago, is given by av\rho / \eta or av/ \nu, 
+where \nu is called the kinematic viscosity. It's easier to remember its 
+dimensions for water: \nu \approx 10^{-2} cm^2/sec. The ratio is 
+called the Reynolds number and when that number is small the 
+viscous forces dominate. Now there is an easy way, which I didn't 
+realize at first, to see who should be interested in small Reynolds 
+numbers. If you take the viscosity, \eta and square it and divide by by 
+the density, you get a force (Fig. 2). No other dimensions come in at 
+all, \eta^2 / \rho is a force. For water, since \eta \approx 10^{-2} and 
+\rho \approx 1, \eta^2/ \rho \approx 10^{-4} dynes. That is a force 
+that will tow anything, large or small, with a Reynolds number of 
+order of magnitude 1. In other words, if you want to tow a submarine 
+with Reynolds number 1 (or strictly speaking 1/6\pi if it's a spherical 
+submarine) tow it with 10^{-4} dyne in water. So it's clear in this case 
+that you're interested in small Reynolds number if you're interested in 
+small forces in an absolute sense. The only other people who are 
+interested in low Reynolds numbers, although they usually don't have 
+to invoke it, are the geophysicists. The Earth's mantle is supposed to 
+have a viscosity of 10^{21} P. If you now work out \eta^2/ \rho, the 
+force is 10^{41} dyne. That is more than 10^9 times the gravitational 
+force that half the Earth exerts on the other half! So the conclusion is, 
+of course, that in the flow of the mantle of the Earth the Reynolds 
+number is very small indeed. 
+Now 
+consider things that move through a liquid (Fig. 3). The Reynolds number for a man swimming in a liquid might be 10^4, if we put 
+in reasonable dimensions, for a goldfish or a tiny guppy it might get down to 10^2. For the animals that we're going to be talking 
+about, as we'll see in a moment it's about 10^{-4} or 10^{-5}. For these animals inertia is totally irrelevant. We know that F=ma, 
+but they could scarcely care less. I'll show you a picture of the real animals in a bit but we are going to be taking about objects 
+which are the order of a micron in size (Fig. 4). That's a micron scale, not a suture, in the animal in Fig. 4. In water where the 
+kinematic viscosity is 10^{-2} cm/sec these things move around with a typical speed of 30 micron/sec. If I have to push that animal 
+to move it, and suddenly I stop pushing, how far will it coast before it slows down? The answer is, about 0.1 angstrom. And it takes 
+
+it about 0.6 microsec to slow down. I think this makes it clear what 
+low Reynolds number means. Inertial plays no role whatsoever. If 
+you are at very low Reynolds number, what you are doing at the 
+moment is entirely determined by the forces that are exerted on you 
+at that moment, and by nothing in the past. 
+It helps to imagine under what conditions a man would be 
+swimming at, say, the same Reynolds number as his own sperm. 
+Well you put him in a swimming pool that is full of molasses, and 
+the you forbid him to move any pare of his body faster than 1 
+cm/min. Now imagine yourself in that condition; you're under the 
+swimming pool in molasses, and now you can only move like the 
+hands of a clock. If under those ground rules you are able to move a 
+few meters in a couple of weeks, you may qualify as a low 
+Reynolds number swimmer. 
+I 
+want to talk about swimming at low Reynolds number in a very general way. What does it mean to swim? Well, it means simply 
+that you are in some liquid and are allowed to deform your body in some manner. That's all you can do. Move it around and move it 
+back. Of course, you choose some kind of cyclic deformation because you want to keep swimming, and it doesn't do any good to 
+use a motion that goes to zero asymptotically. You have to keep moving. So, in general, we are interested n cyclic deformations of a 
+body on which there are no external torques or forces except those exerted by the surrounding fluid. In Fig. 5, there is an object 
+which has a shape shown by the solid line; it changes its shape to the dashed contour and then it changes back. When it finally gets 
+back to its original shape, the dotted contour, it has moved over and rotated a little. It has been swimming. When it executed the 
+cycle, a displacement resulted. If it repeats the cycle, it will, of course, effect the same displacement, and in tow dimensions we'd 
+see it progressing around a circle. In three dimensions its most general trajectory is a helix consisting of little kinks, each of which 
+is the result of one cycle of shape change. 
+
+There is a very funny thing about motion at low Reynolds number, 
+which is the following. One special kind of swimming motion is 
+what I cal a reciprocal motion. That is to say, I change my body 
+into a certain shape and then I go back to the original shape by 
+going through the sequence in reverse. At low Reynolds number, 
+everything reverses just fine. Time, in fact, makes no difference---
+only configuration. If I change quickly or slowly, the pattern of 
+motion is exactly the same. If you take the Navier-Stokes equation 
+and throw away the inertia terms, all you have left is \nabla^2 v = 
+p/ \eta, where p is the pressure (Fig. 6). So, if the animal tries to 
+swim by a reciprocal motion, it can't go anywhere. Fast or slow, it 
+exactly retraces its trajectory and it's back where it started. A good 
+example of that is a scallop. You know, a scallop opens its shell 
+slowly and closes its shell fast, squirting out water. The moral of 
+this is that the scallop at low Reynolds number is no good. It can't 
+swim because it only has 
+one hinge, and if you have 
+only one degree of freedom 
+in configuration space, you 
+are bound to make a 
+reciprocal motion. There is 
+nothing else you can do. 
+The simplest animal that 
+can swim that way is an 
+animal two hinges. I don't 
+know whether one exists 
+but Fig. 7 shows a 
+hypothetical one. This 
+animal is like a boat with a rudder at both front and back, and nothing else. This animal can swim. All it has to do is go through the 
+sequence to configurations shown, returning to the original one at S_5. Its configuration space, of course, is two dimensional with 
+coordinates \theta_1, \theta_2. The animal is going around a loop in that configuration space, and that enables it to swim. In fact, I 
+worked this one out just for fun and you can prove from symmetry that it goes along the direction shown in the figure. As an 
+exercise for the student, what is it that distinguishes that direction? 
+You can invent other animals that have no trouble swimming. We had 
+better be able to invent them, since we know they exist. One you might 
+think of first as a physicist, is a torus. I don't know whether there is a 
+toroidal animal, but whatever other physiological problems it might face, it 
+clearly could swim at low Reynolds number (Fig. 8). Another animal 
+might consist of two cells which were stuck together and were able to roll 
+on one another by having some kind of attraction here while releasing 
+there. That thing will "roll" along. I described it once a s a combination 
+caterpillar tractor and bicycle built for two, but that isn't the way ti really 
+works. In the animal kingdom, there are at least two other more common 
+solutions to the problem of swimming at low Reynolds number (Fig. 9). 
+One might be called the flexible oar. You see, you can't row a boat at low 
+Reynolds number in molasses--if you are submerged--because the stiff oars 
+are just reciprocating things. But if the oar is flexible, that's not true, 
+because then the car bends one way during the first half of the stroke and 
+the other during the second half. That's sufficient to elude the theorem that 
+got the scallop. Another method, and the one we'll mainly be talking about, 
+is what I call a corkscrew. If you keep turning it, that, of course, is not a 
+reciprocal change in configuration space and that will propel you. At this 
+point, I wish I could persuade you that the direction in which this helical 
+drive will move in not obvious. Put yourself back in that swimming pool 
+
+under molasses 
+and move 
+around very, 
+very slowly. 
+Your intuitions 
+about pushing 
+water 
+backwards are 
+irrelevant. 
+That's not what 
+counts. Now, 
+unfortunately, 
+it turns out that 
+the thing does 
+move the way 
+your naive, 
+untutored, and 
+actually 
+incorrect 
+argument 
+would indicate, 
+but that's just a 
+pedagogical 
+misfortune we 
+are always 
+running into. 
+Well, let's look at some real animals (Fig. 10). This figure I've taken from a paper of Howard Berg that he sent me. Here are three 
+real swimmers. The one we're going to be talking about most is the famous animal, Escherichia coli, at A, which is a very tiny 
+thing. Then there are two larger animals. I've copied down their Latin names and the may be old friends to some of you here. This 
+thing (S. volutans) swims by waving its body as well as its tail and roughly speaking, a spiral wave runs down that tail. The 
+bacterium E. coli on the left is about 2 micron long. The tail is the part that we are interested in. That's the flagellum. Some E. coli 
+cells have them coming out the sides; and they may have several, but when they have several they tend to bundle together. Some 
+cells are nonmotile and don't have flagella. 
+
+To come now to modern times, I want to show a picture of these animals 
+swimming or tracking. This is the work of Howard Berg, and I'll first describe 
+what he did. He started building the apparatus when he was at Harvard. He was 
+interested in studying not the actual mechanics of swimming at all but a much 
+more interesting question, namely, why these things swim and where they swim. 
+In particular, he wanted to study chemotaxis in E. coli --seeing how they behave 
+in gradients of nutrients and things like that. So he built a little machine which 
+would track a single bacterium in x,y,z coordinates--just lock onto it optically and 
+track it. He was able then to track one of these bacteria while it was behaving in 
+its normal manner, possibly subject to the influence of gradients of one thing or 
+another. A great advantage of working with a thing like E. coli is that there are so 
+many mutant strains that have been well studied that you can use different 
+mutants for different things. The next picture (Fig. 11) is one of his tracks. It 
+shows a projection on a plane of the track of one bacterium. The little dots are 0.1 
+sec apart so that it was actually running along one of the legs for a second or two 
+and the speed is typically 20--40 microns/sec. Notice that it swims for a while and 
+then stops and goes off in another direction. We'll see later what that might 
+suggest. A year ago, Howard Berg went out on a limb and wrote a paper in 
+Nature in which he argued that, on the basis of available evidence, E. coli must 
+swim by rotating their flagella, not by waving them. Within the year a very elegant, crucial experiment by Silverman and Simon at 
+UC-San Diego showed that this fact is the case. Their 
+experiment involved a mutant strain of E. coli bacteria which 
+don't make flagella at all but only make something called the 
+proximal hook to which the flagella would have been attached. 
+They found that whit antihook antibodies they could cause 
+these things to glue together. And once in a while one of the 
+bacteria would have its hook glued to the microscope slide, in 
+which case the whole body rotated at constant angular 
+velocity. And when two hooks glued together, the two bodies 
+counter-rotated, as you would expect. It's a beautiful 
+technique. Howard was ready with his tracker and the next 
+picture (Fig. 12) shows his tracker following the end of one of 
+these tethered E. coli cells which is stuck to the microscope 
+slide by antibody at the place where the flagellum should have been. Plotted here are the two velocity components V_x and V_y. 
+The two velocity components are 90 degrees out of phase. The point being tracked is going in a circle. In the middle of the figure, 
+you see a 90 degrees phase change in one component, a reversal of rotation. They can rotate hundreds of revolutions at constant 
+speed and then turn around and rotate the other way. Evidently the animal actually has a rotary joint, and has a motor inside that's 
+able to drive a flagellum in one direction or the other, a most remarkable piece of machinery. 
+
+I got interested in the way a rotating corkscrew can propel something. 
+Let's consider propulsion in one direction only, parallel to the axis of 
+the helix. The helix can translate and it can rotate; you can apply a 
+force to it and a torque. It has a velocity v and an angular velocity 
+\omega . And now remember, at low Reynolds number everything is 
+linear. When everything is linear, you expect to see matrices come in. 
+Force and torque must be related by matrices with constant 
+coefficients, to linear and angular velocity. I call this little 2x2 matrix 
+the propulsion matrix (Fig. 13). If I knew its elements A, B, C, D, I 
+could then find out how good this rotating helix is for propelling 
+anything. 
+Well, let's try to go on by making some assumptions. If two 
+corkscrews or other devices on the same shaft are far enough from 
+one another so that their velocity patterns don't interact, their 
+propulsive matrices just add. If you allow me that assumption, then 
+there is a very nice way, which I don't have time to explain, of 
+proving that the propulsion matrix must be symmetrical (Fig. 14). So 
+actually the motion is described by only three constants, not four, and 
+they are very easily measured. All you have to do is make a model of 
+this thing and drop in a fluid that you are interested in or not, because 
+these constants are independent of that. And so I did that and that's 
+my one demonstration. I thought this series of talks ought to have one 
+experiment and there it is. We're looking through a tank not of 
+glycerin but of corn syrup, which is cheaper, quite uniform, and has a 
+viscosity of about 50 P or 5000 times the viscosity of water. The nice 
+part of this is you can just lick the experimental material off your fingers. 
+Motion at low Reynolds number is very majestic, slow, and 
+regular. You'll notice that the model is actually rotating but rather 
+little. If that were a corkscrew moving through a cork of course, 
+the pattern in projection wouldn't change. It's very very far from 
+that, it's slipping , so that it sinks by several wavelengths while it's 
+turning around once. If the matrix were diagonal, the thing would 
+not rotate at all. So all you have to do is just see how much it turns 
+as it sinks and you have got a handle on the off-diagonal element. 
+A nice way to determine the other elements is to run two of these 
+animals, one of which is a spiral and the other is two spirals, in 
+series, of opposite handedness. The matrices add and with two 
+spirals of opposite handedness, the propulsions matrix must be 
+diagonal (Fig. 14). That's not going to rotate; it better not. 
+The propulsive efficiency is more or less proportional to the 
+square of the off-diagonal element of the matrix. The off-diagonal 
+element depends on the difference between the drag on a wire 
+moving perpendicular to its length and the drag on a wire moving 
+parallel to its length (Fig. 15). These are supposed to differ in a 
+certain limit by a factor of 2. But for the models I've tested that 
+factor is more like 1.5. Since it's that factor minus 1 that counts, 
+that's very bad for efficiency. We thought that if you want 
+something to rotate more while sinking, it would be better not to 
+use a round wire. Something like a slinky ought to be better. I 
+made one and measure its off diagonal elements. Surprise, 
+surprise, it was no better at all! I don't really understand that, because the fluid mechanics of these two situations is not at all simple. 
+
+
+for transport by diffusion, it's l^2 divided by D, the diffusion 
+constant. The ratio of those two times is a measure of the 
+effectiveness of stirring versus that of diffusion for any given 
+distance and diffusion constant. 
+I'm sure this ratio has someone's name but I don't know the 
+literature and I don't know whose number that's called. Call it S 
+for stirring number, it's just lv/D . You'll notices by the way that 
+the Reynolds number was lv/ \eta, \eta is the kinematic viscosity 
+in cm^2/sec, and D is the diffusion constant in cm^2/sec, for 
+whatever it is that we are interested in following--let us say a 
+nutrient molecule in water. Now, in every reasonably sized 
+molecules, something like 10^{-5} cm^2/sec. In the size domain 
+that we're interested in, of micron distances, we find that the 
+stirring number S is 10^{-2}, for r the velocities that we are 
+talking about (Fig. 18). 
+ 
+In other words, this bug can't do anything by stirring its local surroundings. It might as well wait for things to diffuse, either in or 
+out. The transport of wastes away from the animal and food to the animal is entirely controlled locally by diffusion. You can thrash 
+around a lot, but the fellow who just sits there quietly waiting for stuff to diffuse will collect just as much. 
+  
+
+ 
+At one time I thought that the reason the thing swims is that if it swims it can get more stuff, because the medium is full of 
+molecules the bug would like to have. All my instincts as a physicist say you should move if you want to scoop that stuff up. You 
+can easily solve the problem of diffusing in the velocity field represented by the Stokes flow around a sphere---for instance, by a 
+relaxation method. I did so and found out how fast the cell would have to go to increase--its food supply. The food supply if it just 
+sits there is 4 \pi a ND , where a is the cell's radius (Fig. 19) and N is the concentration of nutrient molecules. to increase its food 
+supply by 10% it would have to move at a speed of 700 microns/sec, which is 20 times as fast as it can swim. The increased intake 
+varies like the square root of the bug's velocity so the swimming does no good at all in that respect. But what it can do is find places 
+where the food is better or more abundant. that is, it does not move like a cow that is grazing a pasture--it moves to find greener 
+pastures. And how far does it have to move? Well, it has to move far enough to outrun diffusion. We said before that stirring 
+wouldn't do any good locally, compared to diffusion. But suppose it wants to run over there to see whether there is more over there. 
+Then it must outrun diffusion, and ho do you do that? Well, you go that magic distance, D/v. So the rule is then, to out swim 
+diffusion you have to go a distance which is equal to or greater than this number we had in our S constant. for typical D and v , you 
+have to go about 30 \mu m and that's just about what the swimming bacteria were doing. If you don't swim that far, you haven't 
+gone anywhere, because it's only on that scale that you could find a difference in your environment with respect to molecules of 
+diffusion constant D (Fig. 20). 
+
+Let's go back and look at one of those sections from 
+Berg's track (Fig. 11). You'll see that there are some 
+little trips, but otherwise you might ask why did it go 
+clear over here and stop. Why did it go back? Well, 
+my suggestions is, and I'd like to put this forward very 
+tentatively, that the reason it does is because it's trying 
+to outrun diffusion. Otherwise, it might as well sit still, 
+as indeed do the mutants who don't have flagella. Now 
+there is still another thing that I put forward with even 
+more hesitation because I haven't tried tried this out on 
+Howard yet. When he did his chemotaxis experiments, 
+he found a very interesting behavior. If these things 
+are put in a medium where there is a gradient of 
+something that they like, they gradually work their 
+way upstream. But if you look at how they do it and 
+ask what rules they are using, what the algorithm is to 
+use the current language, for finding your way 
+upstream, it turns out that it's very simple. The 
+algorithm is: if things are getting better don't stop so 
+soon. If, in other words, you plot, as Berg has done in 
+some of his papers, the distribution of path lengths 
+between runs and the little stops that he calls 
+"twiddles," the distribution of path lengths if they are 
+going up the gradient gets longer. That's a very simple 
+rule for working your way to where things are better. 
+If they're going down the gradient, though, they don't 
+get shorter. And that seems a little puzzling. Why, if 
+things are getting worse, don't they change sooner? My suggestion is that there is no point in stopping sooner. there is a sort of 
+bedrock length which outruns diffusion and is useful for sampling the medium. shorter paths would be a ridiculous way to sample. 
+It may be something like that, but as I say, I don't know. the residue of education that I got from this is partly this stuff about simple 
+fluid mechanics, partly the realization that the mechanism of propulsion is really not very important except, of course, for the 
+physiology of that very mysterious motor, which physicists aren't competent even to conjecture about. 
+I come back for a moment to Osborne Reynolds. That was a very great man. He was a professor of engineering, actually. He was 
+the one who not only invented Reynolds number, but he was also the one who showed what turbulence amounts to and that there is 
+an instability in flow, and all that. He is also the one who solved the problem for how you lubricate a bearing, which is a very subtle 
+problem that I recommend to anyone who hasn't looked into it. But I discovered just recently in reading in his collected works that 
+toward the end of his life, in 1903, he published a very long paper on the details of the sub mechanical universe , and he had a 
+complete theory which involved small particles of diameter 10^{-18} cm. It gets very nutty from there on. It's a mechanical model, 
+the particles interact with one another and fill all space. But I thought that, incongruous as it may have seemed to put this kind of 
+stuff in between our studies of the sub mechanical universe today, I believe that Osborne Reynolds would not have found that 
+incongruous, and I'm quite positive that Viki doesn't. 
+Webified by J. Brody, Dec. 1997. 
+
